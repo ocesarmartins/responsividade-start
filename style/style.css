@@ -1,0 +1,113 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: lightgray;
+    box-sizing: border-box;
+}
+
+/* HEADER / NAVBAR */
+
+.row{
+    width: 980px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.col-left{
+    background-color: lightgreen;
+    width: 150px;
+    height: 50px;
+}
+.col-mid{
+    background-color: lightgreen;
+    width: 580px;
+    height: 50px;
+}
+.col-right{
+    background-color: lightgreen;
+    width: 150px;
+    height: 50px;
+}
+
+/* HERO */
+
+.hero .hero-container{
+    width: 980px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.hero-text{
+    width: 430px;
+    background-color: lightgray;
+    height: 400px;
+    margin: 30px;
+}
+
+.hero-img{
+    width: 430px;
+    background-color: lightgray;
+    height: 400px;
+    margin: 30px;
+}
+
+/* GALLERY */
+
+.gallery .gallery-container{
+    width: 980px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-container .gallery-card {
+    height: 200px;
+    width: 250px;
+    background-color: black;
+    margin: 20px;
+}
+
+/* FORM */
+
+.form .form-container{
+    width: 980px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-container .form-text{
+    height: 80px;
+    width: 490px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+.form-container .form-content{
+    height: 300px;
+    width: 685px;
+    background-color: lightgray;
+    margin: 20px;
+}
+
+/* FOOTER */
+footer .footer-container{
+    width: 980px;
+    height: 200px;
+    background-color: black;
+    display: flex;
+    justify-content: start;
+}
+
+.footer-content{
+    width: 280px;
+    height: 150px;
+    background-color: lightgreen;
+    margin: 30px;
+}
